@@ -1,0 +1,35 @@
+baseURL: "https://justinegravel.com/"
+locale: en-us
+title: Justine Gravel
+theme: PaperMod
+copyright: "© 2026 Justine Gravel | [Site Details](/details/)"
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  profileMode:
+    enabled: true
+    title: "Justine Gravel"
+    subtitle: "Technical Writer in Quebec, Canada"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/JustineGravel"
+    - name: "linkedin"
+      url: "#"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: projects
+      name: Portfolio
+      url: /portfolio/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
